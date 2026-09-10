@@ -1,27 +1,17 @@
 /* ---------------------------------------------------------------
    Project 80 — Firebase connection
-   ---------------------------------------------------------------
-   Paste your Firebase web config below, replacing the YOUR_... values.
+   Project: project-80  (project-80-8d856)
 
-   Where to find it:
-     console.firebase.google.com
-       -> your project
-       -> gear icon (Project settings)
-       -> scroll to "Your apps" -> Web app -> "SDK setup and configuration"
-       -> choose "Config" and copy the values.
-
-   If you have no web app registered yet, click the </> icon on that
-   page to create one first. Nickname it "Project 80".
-
-   These values are NOT secret. Firebase web config is designed to ship
-   in public client code — your data is protected by the Firestore
-   security rules in README.md, not by hiding these keys.
+   These values are NOT secret. Firebase web config is designed to
+   ship in public client code. Your data is protected by the Firestore
+   security rules, which restrict every document to the signed-in
+   owner — not by hiding these keys.
 --------------------------------------------------------------- */
 window.FIREBASE_CONFIG = {
-  apiKey:            "YOUR_API_KEY",
-  authDomain:        "YOUR_PROJECT.firebaseapp.com",
-  projectId:         "YOUR_PROJECT_ID",
-  storageBucket:     "YOUR_PROJECT.firebasestorage.app",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId:             "YOUR_APP_ID"
+  apiKey:            "AIzaSyAF1PyWOkScQtxXiBDwUKSvoJvGqHd8IZc",
+  authDomain:        "project-80-8d856.firebaseapp.com",
+  projectId:         "project-80-8d856",
+  storageBucket:     "project-80-8d856.firebasestorage.app",
+  messagingSenderId: "135566685472",
+  appId:             "1:135566685472:web:04635cf10fccf98a749345"
 };
